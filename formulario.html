@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="estilização.css">
+
+
+</head>
+<body>
+    <header>
+       <h1>Formulário de Informações Pessoais</h1>
+        <nav>
+                <ul class="dese">
+                    <a href="formulario.html">Página Inicial  </a>
+                    <a href="server.php">Exibir Mais  </a>
+                    <a href="desenvolvedores.html">Desenvolvedores</a>
+                </ul>
+            
+            
+        </nav> 
+    </header>
+        <main>
+            <h3>Inscrição</h3>
+            <form action="server.php" method="get">
+                <div class="grupo">
+                    <label for="">Nome:</label>
+                    <input type="text" id="nome" name="nome" class="cor">
+                </div>
+                <div class="grupo">
+                    <label for="">e-mail:</label>   
+                    <input type="email" id="email" name="email" class="cor">
+                </div>
+                <div class="grupo">
+                    <label for="">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" class="cor">
+                </div>
+                <div class="grupo">
+                    <label for="">Data de Nascimento:</label>
+                </div>
+                <div class="grupo">
+                    <label for="">Idade:</label>
+                    <input type="number" id="anos" name="idade" class="cor">
+                </div>
+                <div class="grupo">
+                    <label for="">Sexo:</label>
+                    <input type="radio" id="masculino" name="sexo" value="masculino"> Masculino 
+                    <input type="radio" id="feminino" name="sexo" value="feminino"> Feminino
+                </div>
+                </div>
+                <div class="grupo">
+                    <label for="">Cidade:</label>   
+                    <input type="search" id="cidade" name="cidade" class="cor">
+                </div>
+                <div class="grupo">
+                    <label for="">Documento de identificação:</label>
+                    <input type="file" id="identidade" name="identificação" >
+                </div>
+                </div>
+                <div class="grupo">
+                    <label for="">Não sou um robô!</label>
+                    <input type="checkbox" id="" name="" >
+                </div>
+                <div>
+                    <input type="reset" value="Limpar" class="bnt">
+                    <input type="submit" value="Enviar" class="bnt">
+                </div>
+                
+                
+            </form>
+        </main>
+        <footer>
+            <a href="https://portal.ifrn.edu.br/campus/santacruz/">IFRN / Campus Santa Cruz</a>
+            <h3>Trabalho de Autoria Web</h3>
+            <h4>Prof: Marcelo Júnior</h4>
+            <h5>Débora Emanuelly Pinheiro Lopes</h5>
+            <h5>Elen Suame de Paiva Gama</h5>
+            <h5>Júlia Endilly Dantas de Araújo</h5>
+            </footer>
+    
+</body>
+</html>
